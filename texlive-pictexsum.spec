@@ -41,3 +41,11 @@ those who have read the manual.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20060827-1
++ Revision: 759001
+- texlive-pictexsum
+- texlive-pictexsum
+
