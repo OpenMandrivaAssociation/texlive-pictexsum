@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-pictexsum
 Version:	20060827
-Release:	4
+Release:	5
 Summary:	A summary of PicTeX commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/pictex/summary
