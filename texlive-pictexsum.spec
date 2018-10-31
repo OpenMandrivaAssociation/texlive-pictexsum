@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-pictexsum
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	A summary of PicTeX commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/pictex/summary
