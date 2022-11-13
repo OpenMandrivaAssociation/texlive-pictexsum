@@ -1,18 +1,12 @@
-# revision 24965
-# category Package
-# catalog-ctan /info/pictex/summary
-# catalog-date 2006-08-27 16:41:02 +0100
-# catalog-license other-free
-# catalog-version undef
 Name:		texlive-pictexsum
-Version:	20190228
+Version:	24965
 Release:	1
 Summary:	A summary of PicTeX commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/pictex/summary
 License:	OTHER-FREE
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pictexsum.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pictexsum.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pictexsum.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pictexsum.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -34,18 +28,10 @@ those who have read the manual.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20060827-1
-+ Revision: 759001
-- texlive-pictexsum
-- texlive-pictexsum
-
