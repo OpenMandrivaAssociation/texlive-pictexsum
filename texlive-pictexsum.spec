@@ -1,6 +1,6 @@
 Name:		texlive-pictexsum
 Version:	24965
-Release:	1
+Release:	2
 Summary:	A summary of PicTeX commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/pictex/summary
