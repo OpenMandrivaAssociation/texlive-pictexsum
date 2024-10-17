@@ -3,7 +3,7 @@ Version:	24965
 Release:	2
 Summary:	A summary of PicTeX commands
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/pictex/summary
+URL:		https://www.ctan.org/tex-archive/info/pictex/summary
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pictexsum.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pictexsum.doc.r%{version}.tar.xz
